@@ -1,0 +1,316 @@
+/* @ Div For Everything  */
+.For-outside {
+    background-color: #f5f5fa;
+}
+
+.Wrapper {
+    background-color: #fff;
+    font-family: 'montserrat'sans-serif;
+    max-width: 1060px;
+    min-height: 100%;
+    margin: auto;
+    border-left: solid 1px #ddd;
+    border-right: solid 1px #ddd;
+}
+
+/* @ Style for header or logo */
+.header {
+    padding-top: 10px;
+    text-align: center;
+    padding-left: 25px;
+    line-height: 30px;
+    position: relative;
+}
+
+.p-apsolute {
+    position: absolute;
+}
+
+.div-logo {
+    max-width: 100%;
+    margin: auto;
+}
+
+.style-logo {
+    font-weight: 700;
+    color: #444;
+    font-size: 40px;
+}
+
+.style-logo:hover {
+    color: #444;
+    text-decoration: none;
+}
+
+.span-style {
+    font-size: 20px;
+}
+
+.p-style {
+    position: absolute;
+    right: 25px;
+}
+
+/* @ Header End */
+
+/* @ Div For  models */
+.div-models {
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eaeafe;
+    border-top: solid #cacafe 1px;
+    border-bottom: solid #cacafe 1px;
+}
+
+.models-color {
+    color: #333;
+    font-weight: 500;
+}
+
+.models-color:hover {
+    color: #333;
+}
+
+/* @ content of two divs */
+.content {
+    gap: 10px;
+    padding: 15px 0;
+    max-width: 100%;
+    display: flex;
+}
+
+/* @ Div left side  */
+.content-left {
+    padding-right: 10px;
+    border-right: solid 1px #ddd;
+    padding-left: 25px;
+}
+
+.p-in-models {
+    font-size: 20px;
+}
+
+/* @ For Div and inside of div Input Icon */
+.div-search {
+    width: 160px;
+}
+
+.search-box {
+    background: url(../img/search.svg) no-repeat scroll 125px 6px;
+    background-size: 20px 20px;
+    width: 150px;
+    height: 32px;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    padding: 0 0px 0 8px;
+    margin-bottom: 20px;
+}
+
+::-webkit-input-placeholder {
+    font-size: 14px;
+}
+
+/* @ Style for label  */
+.style-label {
+    margin-left: 7px;
+}
+
+/* @ Div Right side */
+.div-for-buttons {
+    margin: 0 20px 10px 20px;
+    border-bottom: solid 1px #abb;
+    background-color: #FFF;
+    display: flex;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.button {
+    background: none !important;
+    border: none;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    color: #000;
+    height: 40px;
+}
+
+.button:focus {
+    outline: none !important;
+    outline: none !important;
+}
+
+.second-butt:focus {
+    outline: none !important;
+    outline: none !important;
+}
+
+.second-butt {
+    border-bottom: solid 1px white !important;
+    background: none !important;
+    border: solid 1px #abb;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    color: #000;
+    height: 40px;
+}
+
+.only-font-weight {
+    font-weight: 600;
+}
+
+.red-color {
+    color: red;
+}
+
+/* @ Selector for pages and selector for phones */
+.selector-div {
+    display: flex;
+    margin: 0 20px 10px 0px;
+    justify-content: space-between;
+}
+
+.select-pages {
+    font-size: 24px;
+    width: 65%;
+}
+
+.select-pages-down {
+    font-size: 24px;
+    width: 100%;
+}
+
+.a-style {
+    padding: 5px 10px;
+}
+
+.color-style {
+    color: black !important;
+}
+
+.style-celect {
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #aaa;
+}
+
+/* @ Mobile Style  */
+.style-mob-button {
+    display: none;
+    padding: 0 12px;
+    margin-top: 1px;
+    margin-left: 20px;
+    height: 38px;
+    font-size: 15px;
+    border: solid 1px #dde;
+    border-radius: 3px;
+    background-color: #f0f0fa;
+    color: #334;
+    cursor: pointer;
+}
+
+.mob-icon-style {
+    height: 28px;
+    fill: #334;
+    float: left;
+}
+
+.mob-span-style {
+    margin-left: 10px;
+    line-height: 30px;
+}
+
+/* @ Style for Cards */
+.div-border-style {
+    cursor: pointer;
+    border: none !important;
+}
+
+.div-border-style:hover {
+    background-color: #f2f2ff;
+}
+
+.p-color {
+    font-weight: 700;
+    color: green;
+    font-size: 20px;
+}
+
+.p-second-color {
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    color: blue;
+}
+
+/* @  Style  Images */
+.img-style {
+    width: none !important;
+    height: 200px;
+    margin: auto;
+    margin-bottom: 10px;
+    display: block;
+}
+
+/* @ Footer Style  */
+.footer {
+    margin-inline: 25px;
+    border-top: solid 1px #ddd;
+    justify-content: center;
+    gap: 10px;
+    display: flex;
+    text-align: center;
+}
+
+/* @ Start with @Media  */
+@media only screen and (max-width: 900px) {
+    .header {
+        background-color: #f0f0fa;
+    }
+
+    .p-apsolute {
+        display: none;
+    }
+
+    .p-style {
+        display: none;
+    }
+
+    .div-models {
+        display: none;
+    }
+
+    .content-left {
+        display: none;
+    }
+
+    .select-pages {
+        display: none;
+    }
+
+    .style-mob-button {
+        display: inline;
+    }
+
+    .text-style-card {
+        text-align: center;
+    }
+
+    .select-pages-down {
+        text-align: center;
+    }
+
+    .Wrapper {
+        width: 100% !important;
+        border-left: none !important;
+        border-right: none !important;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .mob-span-style {
+        display: none;
+    }
+}

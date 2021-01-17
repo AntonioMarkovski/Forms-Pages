@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form 1</title>
+
+    <link rel="stylesheet" href="./assets/css/form1.css" />
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/jquery-3.5.1/jquery-3.5.1.min.js" />
+    <link rel="stylesheet" href="./assets/bootstrap/js/bootstrap.js" />
+    <link
+      rel="stylesheet"
+      href="./font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="for-bg-color">
+      <div class="div-for-content">
+        <div class="div-for-left-side">
+          <img src="./assets/img/bg-heading-02.jpg" alt="" class="img-style" />
+        </div>
+        <div class="div-rigth-side">
+          <p class="p-style">REGISTRATION INFO</p>
+          <div class="input-group margin-bottom-sm">
+            <input
+              class="form-control input-style input-style-2"
+              type="text"
+              placeholder="Name "
+            />
+          </div>
+
+          <div class="row g-2">
+            <div class="col-md">
+              <div class="form-floating">
+                <input
+                  type="date"
+                  class="form-control input-style input-style-2"
+                  placeholder="Birthdate"
+                />
+              </div>
+            </div>
+            <div class="col-md">
+              <div class="form-floating">
+                <select
+                  class="form-select input-style select-style"
+                  id="floatingSelectGrid"
+                  aria-label="Floating label select example"
+                >
+                  <option selected>Gender</option>
+                  <option value="1">Male</option>
+                  <option value="2">Famale</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <select
+            class="form-select input-style select-width"
+            aria-label="Default select example"
+          >
+            <option selected>Class</option>
+            <option value="1">One</option>
+            <option value="2">Two</option>
+          </select>
+          <div class="col-md-3 position-relative select-width mx-div">
+            <input
+              type="text"
+              class="form-control input-style"
+              placeholder="Registration Code"
+              required
+            />
+            <div class="invalid-tooltip">Please provide a valid zip.</div>
+          </div>
+          <button type="button" class="btn btn-success">Search</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
